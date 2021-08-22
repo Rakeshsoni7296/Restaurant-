@@ -15,4 +15,4 @@ const Port = process.env.PORT;
 
 app.listen(Port, 'localhost', ()=>{
     console.log(`Server is Running at http://localhost:${Port}`);
-})
+});
